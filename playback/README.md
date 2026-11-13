@@ -4,11 +4,11 @@ A personal build of [Guru-600](https://github.com/MarcGoudy/guru-600) at commit 
 
 The FM-1 appears as a USB speaker. A computer or iPad can play through the speaker and headphones, mixed with the synth. MASTER sets how loud that playback is. Recording back to the computer is 16-bit stereo at 44.1 kHz only. The USB name is Guru-600.
 
-Open the installer on a computer in Chrome, Edge, Brave, or Opera:
+Download the firmware file:
 
-https://chinotto1.github.io/guru-600-usb/
+https://github.com/chinotto1/guru-600-usb-playback/raw/main/playback/guru-600-1.0.3-usb.fwsc
 
-An iPad can download `guru-600-1.0.3-usb.fwsc` from that page. iPad browsers cannot install the firmware.
+An iPad can download that file. iPad browsers cannot install it. On a computer, download this folder, run `python3 -m http.server` inside `playback`, and open http://localhost:8000 in Chrome, Edge, Brave, or Opera. Then press Install.
 
 This build has not been run on a real FM-1. If the unit no longer starts, recovery uses [FM-1-transporter](https://github.com/kurogedelic/FM-1-transporter).
 
